@@ -36,7 +36,18 @@ public:
     ~MainWindow();
 
 private slots:
+    /*! \brief A puchButton Slot
+     * Causes an action to be peformed on puchButton click
+    */
     void on_pushButton_clicked();
+    /*! \brief A puchButton Slot
+     * Causes an action to be peformed on NewButton click
+    */
+    void on_NewButton_clicked();
+    /*! \brief A puchButton Slot
+     * Causes an action to be peformed on NewButton click
+    */
+    void on_omgButton_clicked();
 
 private:
     Ui::MainWindow *ui;
